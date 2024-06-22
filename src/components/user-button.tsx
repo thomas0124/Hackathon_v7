@@ -13,7 +13,7 @@ export default async function UserButton() {
 				>
 					<button
 						type="submit"
-						className="mx-5 my-2 rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
+						className="mx-5 my-3 rounded bg-white px-4 py-2 font-bold text-black hover:bg-blue-400"
 					>
 						Sign in
 					</button>
@@ -28,7 +28,7 @@ export default async function UserButton() {
 				>
 					<button
 						type="submit"
-						className="mx-5 my-2 rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
+						className="mx-5 my-3 rounded bg-white px-4 py-2 font-bold text-black text-xl hover:bg-blue-400"
 					>
 						Sign out
 					</button>

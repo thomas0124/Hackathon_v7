@@ -7,5 +7,5 @@ export { auth as middleware } from "@/lib//auth";
 // - _next/image (画像最適化ファイル)
 // - favicon.ico (ファビコンファイル)
 export const config = {
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
+	matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
 };

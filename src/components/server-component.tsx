@@ -16,7 +16,7 @@ export default async function ServerComponent() {
 					/>
 				</div>
 			) : (
-				<div>user: not signed in</div>
+				<div className="mt-4 text-2xl text-white">user: not signed in</div>
 			)}
 		</div>
 	);
